@@ -1,48 +1,45 @@
-# Fullstack DApp Development Course with [Omar Web3](https://omar-web3.com)
+# Sepolia Counter DApp
 
-This repository houses code snippets and resources for the Fullstack DApp Development course presented by [Omar Web3](https://omar-web3.com)
+A minimal on-chain counter DApp. Connect a wallet, read the counter value from a
+Sepolia smart contract, and increment it with a real transaction.
 
-Please contact us at:
+## Tech Stack
 
-- [Website](https://omar-web3.com) - Join Omar Web3 and enjoy blockchain development courses.
-- [LinkedIn](https://www.linkedin.com/in/omariosman/) - Connect with me on LinkedIn
-- [Customer Support](https://wa.me/+201038890189) - Contact our customer support team for any concerns.
+- Next.js
+- Wagmi + viem
+- Reown AppKit (wallet connection)
+- TypeScript
 
----
+## Contract
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+- Address: `0x598f587471370a1335FdEB950FF25a6B2ED6d001`
+- Network: Sepolia
+- Functions: `Counter()` (read), `increment()` (write)
 
 ## Getting Started
 
-First, run the development server:
+```bash
+git clone https://github.com/MohammedSoliman10/wagmi-counter-app.git
+cd wagmi-counter-app
+npm install
+```
+
+Create a `.env` file:
+
+```
+NEXT_PUBLIC_PROJECT_ID=your_reown_project_id
+```
+
+Get a project ID from [Reown Cloud](https://cloud.reown.com).
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Let's Connect
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- GitHub: [MohammedSoliman10](https://github.com/MohammedSoliman10)
+- LinkedIn: [mohammed-soliman05](https://linkedin.com/in/mohammed-soliman05)
+- X: [@MohammedSolly05](https://x.com/MohammedSolly05)
